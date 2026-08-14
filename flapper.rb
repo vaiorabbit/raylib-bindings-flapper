@@ -487,7 +487,8 @@ class Player
   def failed? = @state == :Failed
 
   def update(dt)
-    if not failed? and (IsKeyPressed(KEY_SPACE) || IsMouseButtonPressed(MOUSE_BUTTON_LEFT))
+    fly = (IsKeyPressed(KEY_SPACE) || IsMouseButtonPressed(MOUSE_BUTTON_LEFT) || (GetGestureDetected() == GESTURE_TAP))
+    if not failed? and fly
       @vel_y = -VEL_BOOST
     end
     if @state == :Alive
