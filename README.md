@@ -3,11 +3,16 @@
 # flapper.rb : Ruby raylib bindings demo #
 
 *   Created : 2024-01-01
-*   Last modified : 2024-01-01
+*   Last modified : 2026-08-14
 
 <img src="https://raw.githubusercontent.com/vaiorabbit/raylib-bindings-flapper/main/doc/screenshot_00.png" width="150"> <img src="https://raw.githubusercontent.com/vaiorabbit/raylib-bindings-flapper/main/doc/screenshot_01.png" width="150"> <img src="https://raw.githubusercontent.com/vaiorabbit/raylib-bindings-flapper/main/doc/screenshot_02.png" width="150"> <img src="https://raw.githubusercontent.com/vaiorabbit/raylib-bindings-flapper/main/doc/screenshot_03.png" width="150">
 
 Demonstration on how to use [Ruby raylib bindings](https://github.com/vaiorabbit/raylib-bindings) (<https://github.com/vaiorabbit/raylib-bindings>)
+
+
+## Try it in your browser ##
+
+<https://vaiorabbit.github.io/flapper/flapper.html>
 
 
 ## Usage ##
@@ -28,7 +33,7 @@ $ ruby flapper.rb
 The zlib/libpng License ( http://opensource.org/licenses/Zlib ).
 
     flapper.rb : Ruby raylib bindings demo
-    Copyright (c) 2024 vaiorabbit <http://twitter.com/vaiorabbit>
+    Copyright (c) 2024-2026 vaiorabbit <http://twitter.com/vaiorabbit>
 
     This software is provided 'as-is', without any express or implied
     warranty. In no event will the authors be held liable for any damages
